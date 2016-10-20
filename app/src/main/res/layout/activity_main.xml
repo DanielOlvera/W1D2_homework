@@ -8,10 +8,30 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.daniel.w1d2_homework.MainActivity">
 
     <TextView
+        android:id="@+id/a_main_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+    <Button
+        android:id="@+id/a_button"
+        android:text="A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="20dip"
+        />
+    <Button
+        android:id="@+id/Mango"
+        android:text="Mango"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="28dip"
+        android:layout_toRightOf="@id/a_button"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        android:layout_alignParentTop="true" />
 </RelativeLayout>
